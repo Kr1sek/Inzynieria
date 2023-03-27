@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="13.96" multi-file="no" uid="simp57bf00742a324a6d98a32f1857b85c85">
+  <meta>
+    <name>drugie</name>
+    <authors>Krystian Moskal</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type stereotype="interface" type-id="uml-interface-classifier" type="Interface" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="drawing-star" type="Star" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="uml-interface-classifier" type="Interface" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="realization" type="Realization" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>13</value>
+      </counter>
+      <counter>
+        <item-type type-id="drawing-star" type="Star" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="dependency" type="Dependency" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>10</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-b2f028b1ed7e47fda1a737523db617cf" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Krystian</first-name>
+        <last-name>Moskal</last-name>
+        <role />
+        <e-mail>w64160@student.wsiz.edu.pl</e-mail>
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-2737ba573a8e448ab83cfc719cd066c7" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types>
+        <type id="Order" name="Order" />
+        <type id="List&lt;Restaurant&gt;" name="List&lt;Restaurant&gt;" />
+        <type id="Meal" name="Meal" />
+        <type id="List&lt;Order&gt;" name="List&lt;Order&gt;" />
+        <type id="Restaurant" name="Restaurant" />
+        <type id="TypeKitchen" name="TypeKitchen" />
+      </types>
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="pfa9c126d14b24d4aae0a7a15e436a82f_399882633" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author>Krystian Moskal</author>
+        </authors>
+        <description />
+        <creation-date>03/27/2023 15:40:07</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p7e81540419d94d428fe40271253b92fc_782565048" name="ClassDiagram1" order-index="1" uid="" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>Krystian Moskal</author>
+          </authors>
+          <description />
+          <creation-date>03/27/2023 15:40:07</creation-date>
+          <change-date>03/27/2023 16:02:39</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="091ccbbf0d094fc097808fc4c904797c" cid="I002" type="uml-interface-classifier" name="IOrder" creator="" creation-date="03/27/2023 15:52:54">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="091ccbbf0d094fc097808fc4c904797c_interface_c" type="interface" ref="" />
+            </stereotype-instances>
+            <operations>
+              <operation id="oa1505c19cb3443c2a3edfd28fc1a3d05105" cid="OP007" name="getTodayOrders" creation-date="03/27/2023 15:53:03" type="List&lt;Order&gt;" type-id="List&lt;Order&gt;" visibility="public" />
+            </operations>
+          </item>
+          <item id="2afa72d0b275425da96c065c4d5057b3" cid="PROP012" type="property" name="PaymentMethod" owner="765cd22d500e4779a1b1f945178c630b" creator="" creation-date="03/27/2023 16:01:30" visibility="private" />
+          <item id="91eddeeffe1a416c94d8e4ccc3814720" cid="PROP003" type="property" name="List&lt;Meal&gt;" owner="375ccf115ccd4f51b6949f560cb46361" creator="" creation-date="03/27/2023 15:56:12" visibility="private">
+            <structural-feature type="Meal" type-id="Meal" />
+          </item>
+          <item id="af19d21a8c094bdb9a972da3a63b2758" cid="REA003" type="realization" name="implementacja" creator="" creation-date="03/27/2023 15:55:15" from="375ccf115ccd4f51b6949f560cb46361" to="091ccbbf0d094fc097808fc4c904797c" visibility="package" />
+          <item id="4a3e9118edc2405bbe499b1db71ea183" cid="PROP007" type="property" name="SupplierId" owner="375ccf115ccd4f51b6949f560cb46361" creator="" creation-date="03/27/2023 15:59:16" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="f25a7e0998c9460985ec96625d70adcf" cid="PROP008" type="property" name="Done" owner="375ccf115ccd4f51b6949f560cb46361" creator="" creation-date="03/27/2023 15:59:44" visibility="private">
+            <structural-feature type="Boolean" type-id="Uml.Boolean" />
+          </item>
+          <item id="fbcd8549a5ee4c4da8bb7a9902548034" cid="I001" type="uml-interface-classifier" name="IClient" creator="" creation-date="03/27/2023 15:40:50">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="fbcd8549a5ee4c4da8bb7a9902548034_interface_c" type="interface" ref="" />
+            </stereotype-instances>
+            <operations>
+              <operation id="odfd4c45708244167a6718291ecb2e7d5601" cid="OP001" name="getOrder" creation-date="03/27/2023 15:41:57" type="Order" type-id="Order" visibility="public" />
+              <operation id="oacd1b44f7a364a85b9abdcca28e4471e230" cid="OP002" name="addFavourite" creation-date="03/27/2023 15:42:18" type="List&lt;Restaurant&gt;" type-id="List&lt;Restaurant&gt;" visibility="public" />
+              <operation id="o9077052c6e694a72bf61d1de706ddcb4829" cid="OP003" name="addTypeOfKitchen" creation-date="03/27/2023 15:42:52" type="TypeKitchen" type-id="TypeKitchen" visibility="public" />
+              <operation id="ofc56c6c2761c466480e21214bc49c84e7" cid="OP004" name="rateRestaurant" creation-date="03/27/2023 15:43:17" type="Integer" type-id="Uml.Integer" visibility="public" />
+              <operation id="o88b3e398e93943038937bea39cee00e2906" cid="OP005" name="reportToSanepid" creation-date="03/27/2023 15:44:40" type="Restaurant" type-id="Restaurant" visibility="public" />
+              <operation id="oefd997eb538f4f0eb474ecc12ad82599836" cid="OP006" name="createOrder" creation-date="03/27/2023 15:50:56" type="Order" type-id="Order" visibility="public" />
+            </operations>
+          </item>
+          <item id="765cd22d500e4779a1b1f945178c630b" cid="C001" type="class" name="Client" creator="" creation-date="03/27/2023 15:46:36">
+            <owned-items />
+            <attributes>
+              <attribute id="af8883ff4c1b744c49a55e029a698a433877" cid="PROP009" name="FirstName" creation-date="03/27/2023 16:00:55" property-ref="34c3a4d2f64c44bba95ae8d0bc14f2d9" />
+              <attribute id="a063b4f2523584f01b9ebc5733df8fc9d678" cid="PROP010" name="LastName" creation-date="03/27/2023 16:01:05" property-ref="993678abd63c4d26aa8f3192bb0753f0" />
+              <attribute id="a12691ca14b2847548704a03ed29bd0cf256" cid="PROP011" name="Address" creation-date="03/27/2023 16:01:09" property-ref="2aa22a07f80e48408512a7c9a294b425" />
+              <attribute id="aecdde506a9b84f8594d65680b686b321709" cid="PROP012" name="PaymentMethod" creation-date="03/27/2023 16:01:30" property-ref="2afa72d0b275425da96c065c4d5057b3" />
+            </attributes>
+            <operations>
+              <operation id="odfd4c45708244167a6718291ecb2e7d5601" cid="OP001" name="getOrder" creation-date="03/27/2023 15:41:57" type="Order" type-id="Order" visibility="public" />
+              <operation id="oacd1b44f7a364a85b9abdcca28e4471e230" cid="OP002" name="addFavourite" creation-date="03/27/2023 15:42:18" type="List&lt;Restaurant&gt;" type-id="List&lt;Restaurant&gt;" visibility="public" />
+              <operation id="o9077052c6e694a72bf61d1de706ddcb4829" cid="OP003" name="addTypeOfKitchen" creation-date="03/27/2023 15:42:52" type="TypeKitchen" type-id="TypeKitchen" visibility="public" />
+              <operation id="ofc56c6c2761c466480e21214bc49c84e7" cid="OP004" name="rateRestaurant" creation-date="03/27/2023 15:43:17" type="Integer" type-id="Uml.Integer" visibility="public" />
+              <operation id="o88b3e398e93943038937bea39cee00e2906" cid="OP005" name="reportToSanepid" creation-date="03/27/2023 15:44:40" type="Restaurant" type-id="Restaurant" visibility="public" />
+              <operation id="oefd997eb538f4f0eb474ecc12ad82599836" cid="OP006" name="createOrder" creation-date="03/27/2023 15:50:56" type="Order" type-id="Order" visibility="public" />
+            </operations>
+          </item>
+          <item id="14a401ba00fa44a6b240aef53beb8804" cid="PROP006" type="property" name="RestaurantId" owner="375ccf115ccd4f51b6949f560cb46361" creator="" creation-date="03/27/2023 15:58:29" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="993678abd63c4d26aa8f3192bb0753f0" cid="PROP010" type="property" name="LastName" owner="765cd22d500e4779a1b1f945178c630b" creator="" creation-date="03/27/2023 16:01:05" visibility="private" />
+          <item id="2aa22a07f80e48408512a7c9a294b425" cid="PROP011" type="property" name="Address" owner="765cd22d500e4779a1b1f945178c630b" creator="" creation-date="03/27/2023 16:01:09" visibility="private" />
+          <item id="ed661b5c6b9348baa2c05d4c18444136" cid="PROP004" type="property" name="date" owner="375ccf115ccd4f51b6949f560cb46361" creator="" creation-date="03/27/2023 15:57:58" visibility="private">
+            <structural-feature type="DateTime" type-id="Uml.DateTime" />
+          </item>
+          <item id="34c3a4d2f64c44bba95ae8d0bc14f2d9" cid="PROP009" type="property" name="FirstName" owner="765cd22d500e4779a1b1f945178c630b" creator="" creation-date="03/27/2023 16:00:55" visibility="private" />
+          <item id="575e0a5e8c1348fcb8bf0d399d3082e9" cid="PROP002" type="property" name="orderId" owner="375ccf115ccd4f51b6949f560cb46361" creator="" creation-date="03/27/2023 15:55:29" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="148e52a3d03546fea4beb0ed7dc87e5c" cid="PROP005" type="property" name="ClientId" owner="375ccf115ccd4f51b6949f560cb46361" creator="" creation-date="03/27/2023 15:58:09" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="375ccf115ccd4f51b6949f560cb46361" cid="C002" type="class" name="Order" creator="" creation-date="03/27/2023 15:52:34">
+            <owned-items />
+            <attributes>
+              <attribute id="ac74bcff5209f45c3968df55f5eba0785642" cid="PROP002" name="orderId" creation-date="03/27/2023 15:55:29" property-ref="575e0a5e8c1348fcb8bf0d399d3082e9" />
+              <attribute id="aa66ef87ace444c3b97aa03fb1c83c72a643" cid="PROP003" name="List&lt;Meal&gt;" creation-date="03/27/2023 15:56:12" property-ref="91eddeeffe1a416c94d8e4ccc3814720" />
+              <attribute id="a1e4eba77d8704dfcb9fa6adbe5bc5907868" cid="PROP004" name="date" creation-date="03/27/2023 15:57:58" property-ref="ed661b5c6b9348baa2c05d4c18444136" />
+              <attribute id="ae593902a094e41c08722cb69d22d49db365" cid="PROP005" name="ClientId" creation-date="03/27/2023 15:58:09" property-ref="148e52a3d03546fea4beb0ed7dc87e5c" />
+              <attribute id="a1c747abb9aef4e4589142bdec9bdc4d7503" cid="PROP006" name="RestaurantId" creation-date="03/27/2023 15:58:29" property-ref="14a401ba00fa44a6b240aef53beb8804" />
+              <attribute id="af9d63b4bd4a34e2b8bbc6921b437bd18379" cid="PROP007" name="SupplierId" creation-date="03/27/2023 15:59:16" property-ref="4a3e9118edc2405bbe499b1db71ea183" />
+              <attribute id="a5af5adc54e1a494593e3ead5020bc07c721" cid="PROP008" name="Done" creation-date="03/27/2023 15:59:44" property-ref="f25a7e0998c9460985ec96625d70adcf" />
+            </attributes>
+            <operations>
+              <operation id="oa1505c19cb3443c2a3edfd28fc1a3d05105" cid="OP007" name="getTodayOrders" creation-date="03/27/2023 15:53:03" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="bb7ee405028e464498fc4c22d84c7031" cid="DEP001" type="dependency" name="zależność" creator="" creation-date="03/27/2023 16:02:39" from="765cd22d500e4779a1b1f945178c630b" to="375ccf115ccd4f51b6949f560cb46361" visibility="package" />
+          <item id="1bef02c35b8c4ef6868340e0703ff373" cid="REA002" type="realization" name="implementacja" creator="" creation-date="03/27/2023 15:47:15" from="765cd22d500e4779a1b1f945178c630b" to="fbcd8549a5ee4c4da8bb7a9902548034" visibility="package" />
+        </abstract-items>
+        <layer id="58fcca57892f4dbdaa8bbffa9c31ff86" name="Default" visible="true" enabled="true" locked="false">
+          <item id="fbcd8549a5ee4c4da8bb7a9902548034" iid="efcdbff16197480fb5ce1b95781a738c" creation-date="03/27/2023 15:40:50" order-index="0" type="entity">
+            <layout ax="161" ay="109" awidth="237" aheight="173" x="161" y="109" width="237" height="160" rotation-center="-33.5,0" />
+            <classifier />
+            <class />
+          </item>
+          <item id="1bef02c35b8c4ef6868340e0703ff373" iid="19b3d45119404fb29f7441fe95209db3" creation-date="03/27/2023 15:47:15" order-index="2" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="559" y1="196" x2="398" y2="196" start-border-pos="0.875" end-border-pos="0.375" start-local-pos="80" end-local-pos="80" name-position="0,20">
+              <points>
+                <point x="559" y="196" />
+                <point x="398" y="196" />
+              </points>
+            </layout>
+            <relation from="765cd22d500e4779a1b1f945178c630b" from-iid="68984adaf7e5486da13f51b7df6d17b0" to="fbcd8549a5ee4c4da8bb7a9902548034" to-iid="efcdbff16197480fb5ce1b95781a738c" />
+          </item>
+          <item id="765cd22d500e4779a1b1f945178c630b" iid="68984adaf7e5486da13f51b7df6d17b0" show-fields="true" creation-date="03/27/2023 15:46:36" order-index="1" type="entity">
+            <layout ax="559" ay="80" awidth="222" aheight="231" x="559" y="80" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="375ccf115ccd4f51b6949f560cb46361" iid="26c24bc159594b9f9c8a891da08cf9e8" show-fields="true" creation-date="03/27/2023 15:52:34" order-index="3" type="entity">
+            <layout ax="606" ay="457" awidth="140" aheight="193" x="603" y="457" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="091ccbbf0d094fc097808fc4c904797c" iid="f72d51e461214989bb02bfea7124b67f" creation-date="03/27/2023 15:52:54" order-index="4" type="entity">
+            <layout ax="225.5" ay="457" awidth="140" aheight="160" x="216" y="458" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="af19d21a8c094bdb9a972da3a63b2758" iid="04f8b39601e641369ad87771f5dc7203" creation-date="03/27/2023 15:55:15" order-index="5" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="606" y1="538" x2="366" y2="537" start-border-pos="0.895077720284462" end-border-pos="0.375" start-local-pos="81" end-local-pos="80" name-position="0,20">
+              <points>
+                <point x="606" y="538" />
+                <point x="366" y="537" />
+              </points>
+            </layout>
+            <relation from="375ccf115ccd4f51b6949f560cb46361" from-iid="26c24bc159594b9f9c8a891da08cf9e8" to="091ccbbf0d094fc097808fc4c904797c" to-iid="f72d51e461214989bb02bfea7124b67f" />
+          </item>
+          <item id="bb7ee405028e464498fc4c22d84c7031" iid="cef464d2e30c4e6691b188d1bf7d746c" creation-date="03/27/2023 16:02:39" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="686" y1="311" x2="676" y2="457" start-border-pos="0.606981985270977" end-border-pos="0.125" start-local-pos="127" end-local-pos="70" name-position="0,20">
+              <points>
+                <point x="686" y="311" />
+                <point x="676" y="457" />
+              </points>
+            </layout>
+            <relation from="765cd22d500e4779a1b1f945178c630b" from-iid="68984adaf7e5486da13f51b7df6d17b0" to="375ccf115ccd4f51b6949f560cb46361" to-iid="26c24bc159594b9f9c8a891da08cf9e8" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
