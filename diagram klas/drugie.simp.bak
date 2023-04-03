@@ -106,7 +106,6 @@
         <type id="Order" name="Order" />
         <type id="Meal" name="Meal" />
         <type id="List&lt;Order&gt;" name="List&lt;Order&gt;" />
-        <type id="List&lt;Menu&gt;" name="List&lt;Menu&gt;" />
         <type id="Restaurant" name="Restaurant" />
         <type id="TypeKitchen" name="TypeKitchen" />
       </types>
@@ -154,11 +153,11 @@
               <attribute id="a9261c3fad1f940c7a455516ba2839ef3544" cid="PROP018" name="List&lt;Order&gt; Orders" creation-date="04/03/2023 14:52:56" property-ref="c0f3559efdb645e3814af7067c598e26" />
             </attributes>
             <operations>
-              <operation id="o38091b1d44e84393b9bcddee18c8882a41" cid="OP010" name="GetClientOrders" creation-date="04/03/2023 14:54:24" type="List&lt;Order&gt;" type-id="List&lt;Order&gt;" visibility="public" />
-              <operation id="o11df33f27a2b43a19b9e04d83e5800a8502" cid="OP011" name="ChceckIfItsPossibleToMake" creation-date="04/03/2023 14:55:22" type="Boolean" type-id="Uml.Boolean" visibility="public" />
-              <operation id="o8fd380a8efde45ae8c396ecd71659f88255" cid="OP012" name="CheckDelivery" creation-date="04/03/2023 14:55:39" type="Boolean" type-id="Uml.Boolean" visibility="public" />
-              <operation id="o6c848001f5764e08be652372168ed185141" cid="OP013" name="AddMenu" creation-date="04/03/2023 14:57:52" type="List&lt;Menu&gt;" type-id="List&lt;Menu&gt;" visibility="public" />
-              <operation id="o1301e216284d41d0a086558eba44bef2185" cid="OP014" name="CloseOrdersOnMeal" creation-date="04/03/2023 14:58:16" type="Boolean" type-id="Uml.Boolean" visibility="public" />
+              <operation id="o38091b1d44e84393b9bcddee18c8882a41" cid="OP010" name="getClientOrders" creation-date="04/03/2023 14:54:24" type="List&lt;Order&gt;" type-id="List&lt;Order&gt;" visibility="public" />
+              <operation id="o11df33f27a2b43a19b9e04d83e5800a8502" cid="OP011" name="checkIfItsPossibleToMake" creation-date="04/03/2023 14:55:22" type="Boolean" type-id="Uml.Boolean" visibility="public" />
+              <operation id="o8fd380a8efde45ae8c396ecd71659f88255" cid="OP012" name="checkDelivery" creation-date="04/03/2023 14:55:39" type="Boolean" type-id="Uml.Boolean" visibility="public" />
+              <operation id="o6c848001f5764e08be652372168ed185141" cid="OP013" name="addMenu" creation-date="04/03/2023 14:57:52" type="List&lt;Menu&gt;" type-id="List&lt;Menu&gt;" visibility="public" />
+              <operation id="o1301e216284d41d0a086558eba44bef2185" cid="OP014" name="closeOrdersOnMeal" creation-date="04/03/2023 14:58:16" type="Boolean" type-id="Uml.Boolean" visibility="public" />
             </operations>
           </item>
           <item id="091ccbbf0d094fc097808fc4c904797c" cid="I002" type="uml-interface-classifier" name="IOrder" creator="" creation-date="03/27/2023 15:52:54" visibility="undefined">
@@ -170,7 +169,7 @@
             </stereotype-instances>
             <operations>
               <operation id="oa1505c19cb3443c2a3edfd28fc1a3d05105" cid="OP007" name="getTodayOrders" creation-date="03/27/2023 15:53:03" type="List&lt;Order&gt;" type-id="List&lt;Order&gt;" visibility="public" />
-              <operation id="o4b7e3e2f703d4924a18e77107b4f7def716" cid="OP015" name="GetClientOders" creation-date="04/03/2023 15:02:41" type="List&lt;Order&gt;" type-id="List&lt;Order&gt;" visibility="public" />
+              <operation id="o4b7e3e2f703d4924a18e77107b4f7def716" cid="OP015" name="getClientOders" creation-date="04/03/2023 15:02:41" type="List&lt;Order&gt;" type-id="List&lt;Order&gt;" visibility="public" />
               <operation id="od54ce6bfe64c4199a107af18d0817269955" cid="OP016" name="getRestaurantOrders" creation-date="04/03/2023 15:03:22" type="List&lt;Order&gt;" type-id="List&lt;Order&gt;" visibility="public" />
               <operation id="o3b97ff5dff964e5cba0d8531e8a64ae9256" cid="OP017" name="getDeliveryOrders" creation-date="04/03/2023 15:03:41" type="List&lt;Order&gt;" type-id="List&lt;Order&gt;" visibility="public" />
               <operation id="o8bd3bb9144484094a2ba0ee8a0ca9c9d554" cid="OP018" name="isOrderDelivered" creation-date="04/03/2023 15:03:54" type="Boolean" type-id="Uml.Boolean" visibility="public" />
@@ -192,11 +191,11 @@
               <stereotype id="e36ec68e2a1a4f4b9418f469aa4796d1_interface_c" type="interface" ref="" />
             </stereotype-instances>
             <operations>
-              <operation id="o38091b1d44e84393b9bcddee18c8882a41" cid="OP010" name="GetClientOrders" creation-date="04/03/2023 14:54:24" type="List&lt;Order&gt;" type-id="List&lt;Order&gt;" visibility="public" />
-              <operation id="o11df33f27a2b43a19b9e04d83e5800a8502" cid="OP011" name="ChceckIfItsPossibleToMake" creation-date="04/03/2023 14:55:22" type="Boolean" type-id="Uml.Boolean" visibility="public" />
-              <operation id="o8fd380a8efde45ae8c396ecd71659f88255" cid="OP012" name="CheckDelivery" creation-date="04/03/2023 14:55:39" type="Boolean" type-id="Uml.Boolean" visibility="public" />
-              <operation id="o6c848001f5764e08be652372168ed185141" cid="OP013" name="AddMenu" creation-date="04/03/2023 14:57:52" type="List&lt;Menu&gt;" type-id="List&lt;Menu&gt;" visibility="public" />
-              <operation id="o1301e216284d41d0a086558eba44bef2185" cid="OP014" name="CloseOrdersOnMeal" creation-date="04/03/2023 14:58:16" type="Boolean" type-id="Uml.Boolean" visibility="public" />
+              <operation id="o38091b1d44e84393b9bcddee18c8882a41" cid="OP010" name="getClientOrders" creation-date="04/03/2023 14:54:24" type="List&lt;Order&gt;" type-id="List&lt;Order&gt;" visibility="public" />
+              <operation id="o11df33f27a2b43a19b9e04d83e5800a8502" cid="OP011" name="checkIfItsPossibleToMake" creation-date="04/03/2023 14:55:22" type="Boolean" type-id="Uml.Boolean" visibility="public" />
+              <operation id="o8fd380a8efde45ae8c396ecd71659f88255" cid="OP012" name="checkDelivery" creation-date="04/03/2023 14:55:39" type="Boolean" type-id="Uml.Boolean" visibility="public" />
+              <operation id="o6c848001f5764e08be652372168ed185141" cid="OP013" name="addMenu" creation-date="04/03/2023 14:57:52" type="List&lt;Menu&gt;" type-id="List&lt;Menu&gt;" visibility="public" />
+              <operation id="o1301e216284d41d0a086558eba44bef2185" cid="OP014" name="closeOrdersOnMeal" creation-date="04/03/2023 14:58:16" type="Boolean" type-id="Uml.Boolean" visibility="public" />
             </operations>
           </item>
           <item id="aa0abf54426b4d05ace9a8c5f2741d47" cid="SBT001" type="substitution" name="zależnośc" creator="" creation-date="04/03/2023 15:01:20" from="375ccf115ccd4f51b6949f560cb46361" to="e24ba3df89fe4084bf8cde45a4a1739a" visibility="package" />
@@ -272,7 +271,7 @@
             </attributes>
             <operations>
               <operation id="oa1505c19cb3443c2a3edfd28fc1a3d05105" cid="OP007" name="getTodayOrders" creation-date="03/27/2023 15:53:03" type="" type-id="" visibility="public" />
-              <operation id="o4b7e3e2f703d4924a18e77107b4f7def716" cid="OP015" name="GetClientOders" creation-date="04/03/2023 15:02:41" type="List&lt;Order&gt;" type-id="List&lt;Order&gt;" visibility="public" />
+              <operation id="o4b7e3e2f703d4924a18e77107b4f7def716" cid="OP015" name="getClientOders" creation-date="04/03/2023 15:02:41" type="List&lt;Order&gt;" type-id="List&lt;Order&gt;" visibility="public" />
               <operation id="od54ce6bfe64c4199a107af18d0817269955" cid="OP016" name="getRestaurantOrders" creation-date="04/03/2023 15:03:22" type="List&lt;Order&gt;" type-id="List&lt;Order&gt;" visibility="public" />
               <operation id="o3b97ff5dff964e5cba0d8531e8a64ae9256" cid="OP017" name="getDeliveryOrders" creation-date="04/03/2023 15:03:41" type="List&lt;Order&gt;" type-id="List&lt;Order&gt;" visibility="public" />
               <operation id="o8bd3bb9144484094a2ba0ee8a0ca9c9d554" cid="OP018" name="isOrderDelivered" creation-date="04/03/2023 15:03:54" type="Boolean" type-id="Uml.Boolean" visibility="public" />
@@ -307,15 +306,15 @@
             <class />
           </item>
           <item id="091ccbbf0d094fc097808fc4c904797c" iid="f72d51e461214989bb02bfea7124b67f" creation-date="03/27/2023 15:52:54" order-index="4" type="entity">
-            <layout ax="125.5" ay="442.5" awidth="237" aheight="221" x="125.5" y="442.5" width="237" height="221" rotation-center="48.5,-30.5" />
+            <layout ax="109.5" ay="442.5" awidth="237" aheight="221" x="109.5" y="442.5" width="237" height="221" rotation-center="48.5,-30.5" />
             <classifier />
             <class />
           </item>
           <item id="af19d21a8c094bdb9a972da3a63b2758" iid="04f8b39601e641369ad87771f5dc7203" creation-date="03/27/2023 15:55:15" order-index="5" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="536" y1="555" x2="362" y2="553" start-border-pos="0.895077720284462" end-border-pos="0.375" start-local-pos="81" end-local-pos="80" name-position="0,20">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="536" y1="555" x2="346" y2="553" start-border-pos="0.895077720284462" end-border-pos="0.375" start-local-pos="81" end-local-pos="80" name-position="0,20">
               <points>
                 <point x="536" y="555" />
-                <point x="362" y="553" />
+                <point x="346" y="553" />
               </points>
             </layout>
             <relation from="375ccf115ccd4f51b6949f560cb46361" from-iid="26c24bc159594b9f9c8a891da08cf9e8" to="091ccbbf0d094fc097808fc4c904797c" to-iid="f72d51e461214989bb02bfea7124b67f" />
@@ -330,29 +329,29 @@
             <relation from="765cd22d500e4779a1b1f945178c630b" from-iid="68984adaf7e5486da13f51b7df6d17b0" to="375ccf115ccd4f51b6949f560cb46361" to-iid="26c24bc159594b9f9c8a891da08cf9e8" />
           </item>
           <item id="e36ec68e2a1a4f4b9418f469aa4796d1" iid="eff39674346341c8b6be51146470234b" creation-date="04/03/2023 14:50:44" order-index="7" type="entity">
-            <layout ax="188.75" ay="756.5" awidth="213.5" aheight="250" x="188.75" y="756.5" width="213.5" height="250" rotation-center="-11.75,-45" />
+            <layout ax="165.75" ay="818" awidth="213.5" aheight="250" x="165.75" y="818" width="213.5" height="250" rotation-center="-11.75,-45" />
             <classifier />
             <class />
           </item>
           <item id="e24ba3df89fe4084bf8cde45a4a1739a" iid="23d2a986a3704c409072d65110cac586" show-fields="true" creation-date="04/03/2023 14:53:32" order-index="8" type="entity">
-            <layout ax="536" ay="766" awidth="310" aheight="231" x="536" y="766" width="310" height="160" rotation-center="-85,0" />
+            <layout ax="559" ay="780" awidth="310" aheight="326" x="559" y="780" width="310" height="160" rotation-center="-85,0" />
             <classifier />
             <class />
           </item>
           <item id="adc8a35d09354cf4b854d17159e7de5d" iid="7f82d409c08445eeaff9d1ec560028a4" creation-date="04/03/2023 15:00:12" order-index="9" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="536" y1="882" x2="402" y2="882" start-border-pos="0.875" end-border-pos="0.375" start-local-pos="80" end-local-pos="125" name-position="0,20">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="559" y1="943" x2="379" y2="943" start-border-pos="0.875" end-border-pos="0.375" start-local-pos="80" end-local-pos="125" name-position="0,20">
               <points>
-                <point x="536" y="882" />
-                <point x="402" y="882" />
+                <point x="559" y="943" />
+                <point x="379" y="943" />
               </points>
             </layout>
             <relation from="e24ba3df89fe4084bf8cde45a4a1739a" from-iid="23d2a986a3704c409072d65110cac586" to="e36ec68e2a1a4f4b9418f469aa4796d1" to-iid="eff39674346341c8b6be51146470234b" />
           </item>
           <item id="aa0abf54426b4d05ace9a8c5f2741d47" iid="9c956875c2f74b04a140e641c33ff4e3" creation-date="04/03/2023 15:01:20" order-index="10" type="relation">
-            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="691" y1="712" x2="691" y2="766" start-border-pos="0.625" end-border-pos="0.125" name-position="58,-7" name-width="81">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="699" y1="712" x2="704" y2="780" start-border-pos="0.618209051316784" end-border-pos="0.116739383820565" name-position="58,-7" name-width="81">
               <points>
-                <point x="691" y="712" />
-                <point x="691" y="766" />
+                <point x="699" y="712" />
+                <point x="704" y="780" />
               </points>
             </layout>
             <relation from="375ccf115ccd4f51b6949f560cb46361" from-iid="26c24bc159594b9f9c8a891da08cf9e8" to="e24ba3df89fe4084bf8cde45a4a1739a" to-iid="23d2a986a3704c409072d65110cac586" />
